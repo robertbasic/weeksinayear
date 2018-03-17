@@ -1,0 +1,6 @@
+phpunit.xml
+vendor/
+tests/code-coverage/*
+.idea/
+composer.lock
+infection-log.txt

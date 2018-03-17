@@ -1,0 +1,30 @@
+{
+    "name": "robertbasic/weeksinayear",
+    "description": "Calculates the number of ISO weeks in a given year",
+    "license": "MIT",
+    "homepage": "https://github.com/robertbasic/weeksinayear",
+    "authors": [
+        {
+            "name": "Robert Basic",
+            "email": "robertbasic.com@gmail.com",
+            "homepage": "https://robertbasic.com/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "infection/infection": "^0.8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "RobertBasic\\WeeksInAYear\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RobertBasic\\WeeksInAYearTest\\": "tests/"
+        }
+    }
+}
